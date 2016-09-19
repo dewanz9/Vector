@@ -49,9 +49,3 @@ class Vector(object):
 		self.x_component = direction.x_component * value
 		self.y_component = direction.y_component * value
 		self.z_component = direction.z_component * value
-
-	def show_values(self):
-		"""prints the components"""
-		print(self.x_component)
-		print(self.y_component)
-		print(self.z_component)
